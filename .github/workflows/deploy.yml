@@ -27,8 +27,8 @@ jobs:
         bundler-cache: true
     - name: Install and Build 🔧
       run: |
-        sudo npm install -g mermaid.cli
-        sudo bundle exec jekyll build
+        zsh npm install -g mermaid.cli
+        zsh bundle exec jekyll build
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
