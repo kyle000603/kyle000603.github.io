@@ -2,45 +2,59 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Junbo Kwon
     - name: Date of Birth
-      value: 14th March 1879
+      value: 3rd Jun 2000
     - name: Languages
-      value: English, German
+      value: English, Korean
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS in Artificial Intelligence
+      institution: Gwangju Institute of Science and Technology
+      year: 2025 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Major in Artificial Intelligence
+
+    - title: Summer International Visitor UG
+      institution: University of California Berkeley
+      year: Jun. 2022 - Aug. 2022
+      description:
+        - title: Relevent courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - CS188: Introduction to Artificial Intelligence 
+            - STAT 20: Introduction to Probability and Statistics
+    - title: BS
+      institution: Gwangju Institute of Science and Technology
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Major in Electrical Engineering and Computer science
+        - title: Relevent courses
+          contents:
+            - Data Structure
+            - Introduction to Algorithms
+            - Signals and Systems
+            - Discrete Mathematics
+            - Computer Vision
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI Software Engineer as Internship
+      institution: Brainsoft Inc.
+      year: Jul. 2023 - Feb. 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: ESPNet
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Train speech recognition model with AIhub KSponSpeech dataset(1000hr). By researching the ESPnet and Speech Recognition(SR), learned that SR integrates the idea of ‘alignment’. SR networks can vary by how they define the method of alignment.
+        - title: Android App using Speech Recognition
+          contents:
+            - Implemented Android speech recognition app using Google speech-to-text API (Google Cloud) with Java and Kotlin. Learned the requirement of a small model that can run on the device offline. Small on-device models are more efficient because of the cost of communication, computing delay, and computing power.
+        - title: RNNoise(Speech Enhancement)
+          contents:
+            - Train the RNNoise model and integrate it to use it on hearing aids. My primary job was to decrease the delay of the model from 20ms to 10ms and change the sample rate from 48k to 16k with code analysis and research about psychoacoustics. Also, integrate the RNNoise model from Keras into PyTorch to increase the train speed.
+
     - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
