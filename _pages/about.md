@@ -6,7 +6,7 @@ subtitle: Passionated A.I. Learner! I love to talk about Diffusion Generative Mo
 
 profile:
   align: right
-  image: 
+  image: 🤖
   image_circular: false # crops the image to make it circular
   address: >
     <p>Gwangju, Republic of Korea</p>
